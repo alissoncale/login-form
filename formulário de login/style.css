@@ -1,0 +1,115 @@
+*{margin: 0; padding: 0; box-sizing: border-box;}
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+/*CORES
+ #EBEBEB BACKGROUND
+ #E4E4E4 CINZA CLARO
+ #818181 CINZA INPUT
+ */
+
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: #EBEBEB;
+    font-weight: lighter;
+}
+
+main{
+    background-color: white;
+    margin: 150px auto;
+    width: 400px;
+}
+main form{
+    padding: 20px;
+}
+main form h3{
+    margin: 10px;
+    text-align: center;
+    font-weight: lighter;
+    
+}
+main form .inputcontainer{
+    position: relative;
+    margin-bottom: 20px;
+}
+main form .inputcontainer input, input[type="submit"]{
+    width: 100%;
+    height: 45px;
+    border-radius: 25px;
+}
+main form .inputcontainer input{
+    border: 1px solid #E4E4E4;
+    color: #818181;
+    padding: 0px 45px 0px 35px;
+}
+main form .inputcontainer input::placeholder{
+    color: #818181;
+
+}
+main form .inputcontainer svg{
+    position: absolute;
+    left: 90%;
+    top: calc(50% - 12px);
+    color: #818181;
+}
+
+main form .optionscontainer{
+    padding: 0px 20px;
+    margin: 25px auto;
+    color:#818181 ;
+    font-size: 12px;
+}
+main form .optionscontainer .checkbox, a{
+    display: inline-block;
+    width: 50%;
+}
+main form .optionscontainer a{
+    text-align: right;
+    color: blue;
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: lighter;
+}
+ main form input[type="submit"]{
+    background-color: rgb(63, 63, 252);
+    color: white;
+    border: none;
+    font-weight: bold;
+    font-size: 14px;
+ }
+ main form input[type="submit"]:hover{
+    color: blue;
+    background-color: white;
+    border: 1px solid blue;
+    cursor:pointer;
+    transition-duration: 0.5s;
+ }
+main form p{
+    padding-top: 15px;
+    text-align: center;
+    color: #818181;
+}
+
+main form .socialmidiacontainer{
+    margin: 0 auto;
+    width: fit-content;
+}
+
+main form .socialmidiacontainer .icontainer{
+    display: inline-block;
+    color: #818181;
+    padding: 10px;
+}
+main form span{
+    color: #818181;
+    text-align: center;
+    display: block;
+    padding-top: 10px;
+}
+main form span strong{
+    color: blue;
+    font-weight: lighter;
+    cursor: pointer;
+}
+hr{
+    color: #818181;
+
+}
